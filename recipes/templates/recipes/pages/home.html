@@ -1,5 +1,7 @@
 {% extends 'global/base.html' %}
 
+{% block title %}Home |{% endblock title %}
+
 {% block content %}
 <div class="main-content main-content-list container">
     {% include 'recipes/partials/recipe.html' %}
@@ -8,6 +10,5 @@
     {% include 'recipes/partials/recipe.html' %}
     {% include 'recipes/partials/recipe.html' %}
     {% include 'recipes/partials/recipe.html' %}
-
 </div>
 {% endblock content %}

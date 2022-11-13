@@ -177,6 +177,10 @@ h6 {
     padding: var(--spacing-gutter-medium);
     padding-bottom: var(--spacing-gutter-small);
 }
+.recipe-title-container a{
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
 
 .recipe-author {
     padding: 0 var(--spacing-gutter-medium);

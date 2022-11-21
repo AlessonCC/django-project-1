@@ -131,4 +131,4 @@ db copy.sqlite3
 static/
 .vscode
 
-projeto/settings.py
+project/settings.py
